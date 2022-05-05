@@ -1,0 +1,7 @@
+.main {
+  display: inline-block;
+  max-width: 70%;
+  justify-content: space-between;
+  vertical-align: top;
+  padding: 0;
+}

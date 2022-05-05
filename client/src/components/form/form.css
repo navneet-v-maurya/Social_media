@@ -1,0 +1,12 @@
+.form {
+  display: inline-block;
+  min-width: 20%;
+  position: fixed;
+  right: 10px;
+  border: 1px solid gray;
+  background-color: rgb(25, 237, 237);
+  align-items: center;
+}
+.form-group {
+  margin-top: 10px;
+}
