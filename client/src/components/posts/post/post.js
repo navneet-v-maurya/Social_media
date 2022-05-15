@@ -10,6 +10,7 @@ const Post = () => {
     console.log(post);
     return (
       <div className="card" key={post._id}>
+        <button className="update_button">...</button>
         <img className="card-img-top" src={post.selectedFile} alt="cardimage" />
         <div className="card-body">
           <p className="card-text">{post.tags}</p>

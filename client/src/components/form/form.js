@@ -19,6 +19,7 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     dispatch(createPost(postData));
     handleClear();
   };
@@ -85,7 +86,11 @@ const Form = () => {
         </button>
       </div>
       <div className="form-group w-100">
-        <button onClick={handleClear} className="btn btn-danger w-100">
+        <button
+          type="reset"
+          onClick={handleClear}
+          className="btn btn-danger w-100"
+        >
           Clear
         </button>
       </div>
